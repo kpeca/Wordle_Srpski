@@ -5,7 +5,6 @@ let wordsList = ["grana", "vrana", "petak", "sekta", "metak", "rafal", "puška",
 let niz = [0,1,2,3];
 
 let num = Math.floor(Math.random() * wordsList.length);
-// let correctWord = 'garda';
 let correctWord = wordsList[num];
 let onSpot = 0;
 let existsButNotOnSpot = 0;
@@ -23,7 +22,8 @@ let isOccurence = (x, arr) => {
 let guessWord = () => {
 
 
-  let word = document.getElementById("word").value
+  let word = document.getElementById("word").value.toLowerCase();
+  console.log(word);
   document.getElementById("word").value = '';
   if (word.length !== 5) {
     alert("You entered wrong word length");
