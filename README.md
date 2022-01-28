@@ -1,5 +1,5 @@
 # Wordle_Srpski
-Srpska verzija popularne igrice wordle napravljena u javascript-u
+Srpska verzija popularne igrice Wordle napravljena u javascript-u
 
 Cilj igre je da se pogodi reč koja je nasumično izabrana iz niza koji se nalazi na vrhu u fajlu game.js.
 
